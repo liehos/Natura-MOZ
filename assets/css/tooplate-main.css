@@ -233,14 +233,14 @@ nav a::before {
   z-index: -1;
 }
 .logo {
-	margin-top: 0px;
+	margin-top: 1px;
   top: 0;
   left: 0;
   z-index: 999999;
   position: fixed;
  	display: inline-block;
   text-align: center;
-	background-color: darkgrey;
+    background-color: black; opacity: 0.75;
 	height: 15%;
 	width: 15%;
 }
@@ -353,9 +353,16 @@ nav a::before {
 #image-slider ul li:nth-child(2) {
   background-image: url(../images/background2.jpg);
 }
+
 #image-slider ul li:nth-child(3) {
   background-image: url(../images/background3.jpg);
-
+}
+/*#image-slider ul li:nth-child(4) {*/
+/*  background-image: url(../images/background4.jpg);*/
+}
+/*#image-slider ul li:nth-child(5) {*/
+/*  background-image: url(../images/background5.jpg);*/
+}
 /*#image-slider ul li:nth-child(4) {*/
 /*  background-image: url(../images/background4.jpg)*/
 
